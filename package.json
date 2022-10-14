@@ -1,5 +1,5 @@
 {
-    "name": "@contasystemer/angularjs-custom-element",
+    "name": "@metronome-software/angularjs-custom-element",
     "version": "1.0.2",
     "description": "AngularJS custom element module provides functionality to wrap directive/component with custom element.",
     "main": "index.js",
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/contasystemer/angularjs-custom-element.git"
+        "url": "git+https://github.com/metronome-software/angularjs-custom-element.git"
     },
     "keywords": [
         "Conta",
@@ -20,11 +20,11 @@
     "author": "Conta AS development team",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/contasystemer/angularjs-custom-element/issues"
+        "url": "https://github.com/metronome-software/angularjs-custom-element/issues"
     },
-    "homepage": "https://github.com/contasystemer/angularjs-custom-element#readme",
+    "homepage": "https://github.com/metronome-software/angularjs-custom-element#readme",
     "dependencies": {
-        "@contasystemer/angularjs-assert": "^1.0.3",
+        "@metronome-software/angularjs-assert": "git+https://github.com/metronome-software/angularjs-assert.git",
         "lodash": "^4.17.20"
     },
     "devDependencies": {
