@@ -1,6 +1,6 @@
 {
     "name": "@metronome-software/angularjs-custom-element",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "AngularJS custom element module provides functionality to wrap directive/component with custom element.",
     "main": "index.js",
     "scripts": {
