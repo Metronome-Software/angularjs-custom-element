@@ -1,10 +1,10 @@
 {
     "name": "@metronome-software/angularjs-custom-element",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "AngularJS custom element module provides functionality to wrap directive/component with custom element.",
     "main": "index.js",
     "scripts": {
-        "test": "karma start"
+        "test": "./node_modules/karma/bin/karma start"
     },
     "repository": {
         "type": "git",
@@ -29,14 +29,14 @@
     },
     "devDependencies": {
         "@webcomponents/webcomponentsjs": "^2.4.4",
-        "angular": "^1.7.9",
-        "angular-mocks": "^1.7.9",
+        "angular": "^1.5.11",
+        "angular-mocks": "^1.5.11",
         "karma": "^5.1.1",
         "karma-chrome-launcher": "^3.1.0",
         "karma-jasmine": "^4.0.1",
         "puppeteer": "^5.2.1"
     },
     "peerDependencies": {
-        "angular": "^1.7.9"
+        "angular": "^1.5.11"
     }
 }
