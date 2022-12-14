@@ -15,14 +15,24 @@ module.exports = function(config) {
         frameworks: ['jasmine'],
 
         // start these browsers
-        browsers: ['ChromeHeadless'],
+        browsers: ['ChromeHeadlessCustom'],
+
+        customLaunchers: {
+            ChromeHeadlessCustom: {
+                base: 'ChromeHeadless',
+                flags: [
+                    '--in-process-gpu',
+                    '--no-sandbox',
+                ]
+            }
+        },
 
         // list of files / patterns to load in the browser
         files: [
             'node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js',
             'node_modules/lodash/lodash.js',
             'node_modules/angular/angular.js',
-            'node_modules/@contasystemer/angularjs-assert/src/cs-assert.provider.js',
+            'node_modules/@metronome-software/angularjs-assert/src/cs-assert.provider.js',
             'src/cs-custom-element.service.js',
             'node_modules/angular-mocks/angular-mocks.js',
             'spec/cs-custom-element.service.spec.js',
